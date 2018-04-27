@@ -1,6 +1,6 @@
 //Advanced28.cpp - displays the number of students
 //earning a specific score
-//Created/revised by <your name> on <current date>
+//Created/revised by Aaron Wessley on 4-27-18
 
 #include <iostream>
 using namespace std;
@@ -8,7 +8,7 @@ using namespace std;
 int main()
 {
 	//declare array
-	
+	int scores[20] = { 80, 85, 71, 100, 98, 94, 97, 84, 82, 84, 78, 100, 99, 94, 95, 92, 84, 77, 88, 100 };
 
 	//declare variables
 	int searchScore = 0;

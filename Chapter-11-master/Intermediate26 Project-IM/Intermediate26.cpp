@@ -1,6 +1,6 @@
 //Intermediate26.cpp - increases the prices stored in
 //an array and then displays the increased prices
-//Created/revised by <your name> on <current date>
+//Created/revised by Aaron Wessley on 4-27-18
 
 #include <iostream>
 #include <iomanip>
@@ -19,12 +19,20 @@ int main()
 	cout << "Enter increase percentage (for example, enter 15 for 15%): ";
 	cin >> increase;
 	
+	for (int x = 0; x < 10; x++)
+	{
+		prices[x] = prices[x] + (prices[x] * increase);
+	}
+
 	//end for
 
 	//display contents of array
-	
+	for (int x = 0; x < 10; x++)
+	{
+		cout << prices[x] << endl;
+	}
 	//end for
 
-	//system("pause");
+	system("pause");
 	return 0;
 }	//end of main function
